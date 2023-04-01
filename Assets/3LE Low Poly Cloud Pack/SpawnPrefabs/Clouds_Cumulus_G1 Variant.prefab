@@ -83,8 +83,53 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: dbd55bbddd26d481db7b2f4f8ed552d5, type: 2}
+    - target: {fileID: 3336762, guid: decc2ba5add7b984aab134a07b436422, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 4300000, guid: cc5dc0ac1fd344441ac5c562ed76b21e, type: 2}
+    - target: {fileID: 3337306, guid: decc2ba5add7b984aab134a07b436422, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 4300000, guid: fd32a01b2f2304fb2bf8c6bbdce54c1e, type: 2}
+    - target: {fileID: 3355706, guid: decc2ba5add7b984aab134a07b436422, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 4300000, guid: 82f7a59e34f3641659e2b881155fd44e, type: 2}
+    - target: {fileID: 3368438, guid: decc2ba5add7b984aab134a07b436422, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 4300000, guid: e6308cc9e74f84be0bebe5bf618eb9f9, type: 2}
+    - target: {fileID: 3386324, guid: decc2ba5add7b984aab134a07b436422, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 4300000, guid: 2903e0a7af4c8431dbd0fd020c64fb69, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: decc2ba5add7b984aab134a07b436422, type: 3}
+--- !u!1 &4736221908440787780 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 183994, guid: decc2ba5add7b984aab134a07b436422, type: 3}
+  m_PrefabInstance: {fileID: 4736221908440966654}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &4736221908440809074 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 170892, guid: decc2ba5add7b984aab134a07b436422, type: 3}
+  m_PrefabInstance: {fileID: 4736221908440966654}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &4736221908440820694 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 151080, guid: decc2ba5add7b984aab134a07b436422, type: 3}
+  m_PrefabInstance: {fileID: 4736221908440966654}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &4736221908440846476 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 128370, guid: decc2ba5add7b984aab134a07b436422, type: 3}
+  m_PrefabInstance: {fileID: 4736221908440966654}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &4736221908440866564 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 113402, guid: decc2ba5add7b984aab134a07b436422, type: 3}
+  m_PrefabInstance: {fileID: 4736221908440966654}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &4736221908440873376 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 105566, guid: decc2ba5add7b984aab134a07b436422, type: 3}
@@ -104,3 +149,374 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 15
   deadZone: -900
+--- !u!114 &317668001232565341
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4736221908440873376}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a054274092705d47b8cc27f27aab3bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dataContainer:
+    rid: 6794195329090846762
+  references:
+    version: 2
+    RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }
+    - rid: 6794195329090846762
+      type: {class: DataContainer, ns: BrainFailProductions.PolyFew, asm: Assembly-CSharp}
+      data:
+        objectsHistory:
+          rid: 6794195329090846763
+        objectMeshPairs:
+          rid: 6794195334026756215
+        currentLodLevelSettings:
+        - reductionStrength: 0
+          transitionHeight: 0.6
+          preserveUVFoldover: 0
+          preserveUVSeams: 0
+          preserveBorders: 0
+          useEdgeSort: 1
+          recalculateNormals: 0
+          aggressiveness: 7
+          maxIterations: 100
+          regardCurvature: 0
+          regardTolerance: 0
+          combineMeshes: 0
+          simplificationOptionsFoldout: 0
+          intensityFoldout: 0
+          clearBlendshapesComplete: 0
+          generateUV2: 0
+          sphereIntensities: []
+        - reductionStrength: 30
+          transitionHeight: 0.4
+          preserveUVFoldover: 0
+          preserveUVSeams: 0
+          preserveBorders: 0
+          useEdgeSort: 1
+          recalculateNormals: 0
+          aggressiveness: 7
+          maxIterations: 100
+          regardCurvature: 0
+          regardTolerance: 0
+          combineMeshes: 0
+          simplificationOptionsFoldout: 0
+          intensityFoldout: 0
+          clearBlendshapesComplete: 0
+          generateUV2: 0
+          sphereIntensities: []
+        - reductionStrength: 60
+          transitionHeight: 0.15
+          preserveUVFoldover: 0
+          preserveUVSeams: 0
+          preserveBorders: 0
+          useEdgeSort: 1
+          recalculateNormals: 0
+          aggressiveness: 7
+          maxIterations: 100
+          regardCurvature: 0
+          regardTolerance: 0
+          combineMeshes: 0
+          simplificationOptionsFoldout: 0
+          intensityFoldout: 0
+          clearBlendshapesComplete: 0
+          generateUV2: 0
+          sphereIntensities: []
+        toleranceSpheres: []
+        lodBackup:
+          rid: -2
+        textureArraysSettings:
+          rid: 6794195329090846765
+        materialsToRestore: []
+        lastObjMaterialLinks: {fileID: 0}
+        relocateMaterialLinks: 0
+        reInitializeTempMatProps: 0
+        choiceTextureMap: 0
+        choiceDiffuseColorSpace: 0
+        batchFewSavePath: 
+        existingTextureArrays: []
+        existingTextureArraysFoldout: 0
+        existingTextureArraysSize: 0
+        textureArraysPropsFoldout: 0
+        existingArraysProps:
+          rid: -2
+        choiceColorSpace: 0
+        preserveBorders: 1
+        preserveUVSeams: 0
+        preserveUVFoldover: 0
+        useEdgeSort: 0
+        recalculateNormals: 0
+        maxIterations: 100
+        aggressiveness: 7
+        regardCurvature: 1
+        considerChildren: 1
+        isPreservationActive: 0
+        sphereDiameter: 0.5
+        oldSphereScale: {x: 0, y: 0, z: 0}
+        reductionStrength: 0
+        reductionPending: 0
+        prevFeasibleTarget: {fileID: 4736221908440873376}
+        runOnThreads: 0
+        triangleCount: 164
+        lastDrawer: {fileID: 0}
+        foldoutAutoLOD: 0
+        foldoutBatchFew: 0
+        foldoutAutoLODMultiple: 0
+        objPositionPrevFrame: {x: -128.00003, y: -20, z: 81.999985}
+        objScalePrevFrame: {x: 0.5596162, y: 0.37314743, z: 0.5596162}
+        considerChildrenBatchFew: 1
+        autoLODSavePath: Assets/
+        foldoutAdditionalOpts: 0
+        generateUV2: 0
+        copyParentStaticFlags: 0
+        copyParentTag: 0
+        copyParentLayer: 0
+        createAsChildren: 0
+        removeLODBackupComponent: 0
+        generateUV2batchfew: 0
+        removeMaterialLinksComponent: 0
+        clearBlendshapesComplete: 0
+        clearBlendshapesNormals: 0
+        clearBlendshapesTangents: 0
+        isPlainSkin: 0
+    - rid: 6794195329090846763
+      type: {class: DataContainer/UndoRedoOps, ns: BrainFailProductions.PolyFew, asm: Assembly-CSharp}
+      data:
+        gameObject: {fileID: 4736221908440873376}
+        undoOperations:
+        - isReduceDeep: 1
+          objectMeshPairs:
+            _Buckets: 03000000ffffffff01000000020000000400000000000000ffffffff
+            _HashCodes: e4f70000e8f70000e2f70000e6f70000eaf700000000000000000000
+            _Next: ffffffffffffffffffffffffffffffffffffffff0000000000000000
+            _Count: 5
+            _Version: 5
+            _FreeList: -1
+            _FreeCount: 0
+            _Keys:
+            - {fileID: 4736221908440809074}
+            - {fileID: 4736221908440846476}
+            - {fileID: 4736221908440787780}
+            - {fileID: 4736221908440820694}
+            - {fileID: 4736221908440866564}
+            - {fileID: 0}
+            - {fileID: 0}
+            _Values:
+            - attachedToMeshFilter: 1
+              mesh: {fileID: 0}
+            - attachedToMeshFilter: 1
+              mesh: {fileID: 0}
+            - attachedToMeshFilter: 1
+              mesh: {fileID: 0}
+            - attachedToMeshFilter: 1
+              mesh: {fileID: 0}
+            - attachedToMeshFilter: 1
+              mesh: {fileID: 0}
+            - attachedToMeshFilter: 0
+              mesh: {fileID: 0}
+            - attachedToMeshFilter: 0
+              mesh: {fileID: 0}
+        redoOperations:
+        - isReduceDeep: 1
+          objectMeshPairs:
+            _Buckets: ffffffffffffffffffffffff
+            _HashCodes: 000000000000000000000000
+            _Next: 000000000000000000000000
+            _Count: 0
+            _Version: 0
+            _FreeList: -1
+            _FreeCount: 0
+            _Keys:
+            - {fileID: 0}
+            - {fileID: 0}
+            - {fileID: 0}
+            _Values:
+            - attachedToMeshFilter: 0
+              mesh: {fileID: 0}
+            - attachedToMeshFilter: 0
+              mesh: {fileID: 0}
+            - attachedToMeshFilter: 0
+              mesh: {fileID: 0}
+    - rid: 6794195329090846765
+      type: {class: CombiningInformation/TextureArrayGroup, ns: BrainFailProductions.PolyFew, asm: Assembly-CSharp}
+      data:
+        diffuseArraySettings:
+          resolution:
+            width: 512
+            height: 512
+          filteringMode: 0
+          compressionType: 0
+          compressionQuality: 1
+          anisotropicFilteringLevel: 1
+          choiceResolutionW: 4
+          choiceResolutionH: 4
+          choiceFilteringMode: 0
+          choiceCompressionQuality: 1
+          choiceCompressionType: 0
+        metallicArraySettings:
+          resolution:
+            width: 512
+            height: 512
+          filteringMode: 0
+          compressionType: 0
+          compressionQuality: 1
+          anisotropicFilteringLevel: 1
+          choiceResolutionW: 4
+          choiceResolutionH: 4
+          choiceFilteringMode: 0
+          choiceCompressionQuality: 1
+          choiceCompressionType: 0
+        specularArraySettings:
+          resolution:
+            width: 512
+            height: 512
+          filteringMode: 0
+          compressionType: 0
+          compressionQuality: 1
+          anisotropicFilteringLevel: 1
+          choiceResolutionW: 4
+          choiceResolutionH: 4
+          choiceFilteringMode: 0
+          choiceCompressionQuality: 1
+          choiceCompressionType: 0
+        normalArraySettings:
+          resolution:
+            width: 512
+            height: 512
+          filteringMode: 0
+          compressionType: 0
+          compressionQuality: 1
+          anisotropicFilteringLevel: 1
+          choiceResolutionW: 4
+          choiceResolutionH: 4
+          choiceFilteringMode: 0
+          choiceCompressionQuality: 1
+          choiceCompressionType: 0
+        heightArraySettings:
+          resolution:
+            width: 512
+            height: 512
+          filteringMode: 0
+          compressionType: 0
+          compressionQuality: 1
+          anisotropicFilteringLevel: 1
+          choiceResolutionW: 4
+          choiceResolutionH: 4
+          choiceFilteringMode: 0
+          choiceCompressionQuality: 1
+          choiceCompressionType: 0
+        occlusionArraySettings:
+          resolution:
+            width: 512
+            height: 512
+          filteringMode: 0
+          compressionType: 0
+          compressionQuality: 1
+          anisotropicFilteringLevel: 1
+          choiceResolutionW: 4
+          choiceResolutionH: 4
+          choiceFilteringMode: 0
+          choiceCompressionQuality: 1
+          choiceCompressionType: 0
+        emissiveArraySettings:
+          resolution:
+            width: 512
+            height: 512
+          filteringMode: 0
+          compressionType: 0
+          compressionQuality: 1
+          anisotropicFilteringLevel: 1
+          choiceResolutionW: 4
+          choiceResolutionH: 4
+          choiceFilteringMode: 0
+          choiceCompressionQuality: 1
+          choiceCompressionType: 0
+        detailMaskArraySettings:
+          resolution:
+            width: 512
+            height: 512
+          filteringMode: 0
+          compressionType: 0
+          compressionQuality: 1
+          anisotropicFilteringLevel: 1
+          choiceResolutionW: 4
+          choiceResolutionH: 4
+          choiceFilteringMode: 0
+          choiceCompressionQuality: 1
+          choiceCompressionType: 0
+        detailAlbedoArraySettings:
+          resolution:
+            width: 512
+            height: 512
+          filteringMode: 0
+          compressionType: 0
+          compressionQuality: 1
+          anisotropicFilteringLevel: 1
+          choiceResolutionW: 4
+          choiceResolutionH: 4
+          choiceFilteringMode: 0
+          choiceCompressionQuality: 1
+          choiceCompressionType: 0
+        detailNormalArraySettings:
+          resolution:
+            width: 512
+            height: 512
+          filteringMode: 0
+          compressionType: 0
+          compressionQuality: 1
+          anisotropicFilteringLevel: 1
+          choiceResolutionW: 4
+          choiceResolutionH: 4
+          choiceFilteringMode: 0
+          choiceCompressionQuality: 1
+          choiceCompressionType: 0
+    - rid: 6794195334026756215
+      type: {class: DataContainer/ObjectMeshPair, ns: BrainFailProductions.PolyFew, asm: Assembly-CSharp}
+      data:
+        _Buckets: 03000000ffffffff01000000020000000400000000000000ffffffff
+        _HashCodes: e4f70000e8f70000e2f70000e6f70000eaf700000000000000000000
+        _Next: ffffffffffffffffffffffffffffffffffffffff0000000000000000
+        _Count: 5
+        _Version: 5
+        _FreeList: -1
+        _FreeCount: 0
+        _Keys:
+        - {fileID: 4736221908440809074}
+        - {fileID: 4736221908440846476}
+        - {fileID: 4736221908440787780}
+        - {fileID: 4736221908440820694}
+        - {fileID: 4736221908440866564}
+        - {fileID: 0}
+        - {fileID: 0}
+        _Values:
+        - attachedToMeshFilter: 1
+          mesh: {fileID: 4300000, guid: cc5dc0ac1fd344441ac5c562ed76b21e, type: 2}
+        - attachedToMeshFilter: 1
+          mesh: {fileID: 4300000, guid: fd32a01b2f2304fb2bf8c6bbdce54c1e, type: 2}
+        - attachedToMeshFilter: 1
+          mesh: {fileID: 4300000, guid: 2903e0a7af4c8431dbd0fd020c64fb69, type: 2}
+        - attachedToMeshFilter: 1
+          mesh: {fileID: 4300000, guid: e6308cc9e74f84be0bebe5bf618eb9f9, type: 2}
+        - attachedToMeshFilter: 1
+          mesh: {fileID: 4300000, guid: 82f7a59e34f3641659e2b881155fd44e, type: 2}
+        - attachedToMeshFilter: 0
+          mesh: {fileID: 0}
+        - attachedToMeshFilter: 0
+          mesh: {fileID: 0}
+--- !u!114 &1596461688223914414
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4736221908440873376}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6643f2ddd2d70e24ca75125fe058d9fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
